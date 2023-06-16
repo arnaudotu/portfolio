@@ -1,0 +1,83 @@
+/****************** init certif, the certification logo of the website *****************/
+/************************               start                    ***********************/
+
+/* init certif_container */
+.certif_container{
+    height: 160px; width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+}
+
+/* init all box fo certif img*/
+.box{
+    width: 320px; height: 120px;
+    display: flex;
+    flex-direction: row;
+    margin: auto auto;
+    background-size: cover;
+}
+
+/* init all certif picture */
+.box.certif1{
+    background: url('../images/certif1.png') no-repeat;
+}
+
+.box.certif2{
+    background: url('../images/certif2.png') no-repeat;
+}
+
+.box.certif3{
+    background: url('../images/certif3.png') no-repeat;
+}
+
+.box.certif4{
+    background: url('../images/certif4.png') no-repeat;
+}
+
+/************************                 end                 **************************/
+/****************** init certif, the certification logo of the website *****************/
+
+
+/********************* init footage, the footer of the website *************************/
+/************************               start                    ***********************/
+
+/* FOOTER */
+#footer{
+	width:100%;
+	background-color: rgba(0,0,0,0.9);
+}
+
+/* init footer container */
+.footer_container{
+	width:1200px;
+	margin:0 auto;
+	position:relative;
+	display:flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+
+/* init 3 box for the footer */
+.footer_box{
+	flex: 0 30%;
+	color:#fff;
+}
+
+/* init text for the title */
+.footer_box h5.titre_footer{
+	margin:50px 0 30px 0;
+	font-size:22px;
+	color:#fff;
+}
+
+/* set text of the body of the footer */
+.footer_box a{
+	width:100%;
+	padding:10px;
+	display:block;
+	color:#fff;
+}
+
+/************************                 end                 **************************/
+/********************** init footage, the footer of the website ************************/

@@ -1,0 +1,6 @@
+./assets/world/forest_1/bg.csv;./assets/world/forest_1/npc.csv;./assets/world/forest_1/tp.csv;0
+./assets/world/forest_2/bg.csv;./assets/world/forest_2/npc.csv;./assets/world/forest_2/tp.csv;0
+./assets/world/forest_5/bg.csv;./assets/world/forest_5/npc.csv;./assets/world/forest_5/tp.csv;0
+./assets/world/desert_1/bg.csv;./assets/world/desert_1/npc.csv;./assets/world/forest_1/tp.csv;0
+./assets/world/desert_2/bg.csv;./assets/world/desert_2/npc.csv;./assets/world/forest_2/tp.csv;0
+./assets/world/desert_3/bg.csv;./assets/world/desert_3/npc.csv;./assets/world/forest_3/tp.csv;0

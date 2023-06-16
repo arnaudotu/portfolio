@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>contact</title>
+    <!--- CSS -->
+    <link rel="stylesheet" href="assets/css/produits.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/setting.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- ICONNE -->
+    <script src="https://kit.fontawesome.com/6b14d7cce0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- init menu-->
+<div id="page-transition-container">
+<div class="navbar">
+    <div class="container_menu">
+        <div class="logo_menu"> </div>
+        <div class="menu">
+            <li class="active"><a href="accueil.html">accueil</a></li>
+            <li><a href="apropo.html">qui sommes-nous?</a></li>
+            <li class="dropdown">
+                <button class="dropdown_toggle">NOS PRODUITS</button>
+                <div class="dropdown_menu_box">
+                    <a href="#">RETAIL</a>
+                    <a href="#">SNAKING</a>
+                    <a href="#">HR</a>
+                    <a href="produits.html">ALL PRODUCTS</a>
+                </div>
+            </li>
+            <li><a href="#">nos partenaires</a></li>
+            <a href="contact.html" class="contact"> CONTACT </a>
+        </div>
+    </div>
+</div>
+<!-- init banner -->
+<div class="container_banner">
+	<h1 class="text_banner">NOS PRODUITS</h1>
+</div>
+<!-- init header -->
+<div class="header">
+    <div class="box_produits">
+    <a class="HR_rubrique" href="#"> <img src="assets/images/rsz_img-slide1.png"> HR</a>
+    <a class="RETAIL_rubrique" href="#"> <img src="assets/images/rsz_img-slide2.png"> RETAIL </a>
+    <a class="SNAKING_rubrique" href="#"> <img src="assets/images/rsz_img-slide3.png"> SNAKING </a>
+</div>
+</div>
+
+<!-- init footer -->
+<div class="certif_container">
+    <div class="box certif1"></div>
+    <div class="box certif2"></div>
+    <div class="box certif3"></div>
+    <div class="box certif4"></div>
+</div>
+
+<div id="footer">
+<div class="footer_container">
+	<div class="footer_box">
+		<h5 class="titre_footer">Rubriques</h5>
+		<a href="accueil.html">Accueil</a>
+		<a href="apropo.html">Qui sommes-nous?</a>
+		<a href="produits.html">Nos produits</a>
+		<a href="#">Nos partenaires</a>
+		<img src="assets/images/acs-logo.png" width="200" height="59" style="border-radius:10px; margin-top:50px;">
+	</div>
+	<div class="footer_box">
+		<h5 class="titre_footer">contact</h5>
+		<a href="#">Politique de confidentialité</a>
+		<a href="contact.html">Nous contacter?</a>
+	</div>
+	<div class="footer_box">
+		<h5 class="titre_footer">localisation</h5>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3130.784903580726!2d2.6397446092917405!3d48.850466025280014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66efa96bd301f%3A0xcc3ad65749da4e67!2sACS%20(Applications%20Caisses%20Syst%C3%A8mes)!5e0!3m2!1sfr!2sfr!4v1681772683148!5m2!1sfr!2sfr" width="455" height="250"></iframe>
+		<br><br>
+		<span class="fa fa-phone"></span> <b>Numéro strandard</b>: 01 718 64 118 <br>
+	  <span class="fa fa-envelope"></span> <b>e-Mail</b>: contact@acs-caisse.fr <br><br>
+	</div>
+</div>
+</div>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var pageTransitionContainer = document.getElementById("page-transition-container");
+      var opacity = 0.6;
+      var interval = setInterval(function() {
+        opacity += 0.01;
+        pageTransitionContainer.style.opacity = opacity;
+        if (opacity >= 1) {
+          clearInterval(interval);
+        }
+      }, 10);
+    });
+</script>
+
+</body>
+</html>

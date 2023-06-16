@@ -1,0 +1,147 @@
+/* init navbar */
+.navbar{
+    background: #fff;
+    width: 100%;
+    height: 120px;
+    /* navbar fixed on top */
+    position: sticky;
+    top: 0;
+    /* navbar always above text */
+    z-index: 9999;
+}
+
+/* init container menu */
+.container_menu{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+/* set menu logo */
+.logo_menu{
+    background: url('../images/acs-logo.png') no-repeat center;
+    width: 306px;
+    height: 120px;
+}
+
+/* set size of the menu bar */
+.menu{
+    width: 844px;
+    height: 120px;
+}
+
+/* place the link */
+.menu li{
+    margin-top: 23px;
+    padding: 25px 20px;
+    display: inline-block;
+}
+
+/* set font to the menu text */
+.menu li a{
+    color: #b4a9a9;
+    font-size: 18px;
+    /* initiate writing thickness */
+    font-weight: 500;
+    /* set uppercase text */
+    text-transform: uppercase;
+}
+
+.menu li a:hover{
+    color:#8a8989;
+}
+/* darker "accueil" text */
+.menu li.active a{
+    font-weight: 500;
+    color: #A62139;
+}
+
+/* add red color background to "contact" and round the edges */
+.menu .contact{
+    background-color: #A62139;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+/* add effect when curesor is on contact button */
+.menu .contact:hover{
+    color: #A62139;
+    background-color: rgba(44, 42, 53, 0.8);
+}
+
+/* set colors to the "contact" text */
+.menu a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* init scrolling menu button */
+.menu .dropdown_item{
+    background-color: transparent;
+	color:#fff;
+	text-align:left;
+}
+.menu .dropdown_toggle{
+    color: #b4a9a9;
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    /* initiate writing thickness */
+    font-weight: 500;
+    /* set uppercase text */
+    text-transform: uppercase;
+}
+
+/* init scrolling menu */
+.menu .dropdown_toggle {
+    cursor: pointer;
+    }
+
+    /* init dropdown menu box */
+    .menu .dropdown_menu_box {
+        margin: 5px -14px;
+        display: none;
+        position: absolute;
+        background-color: #131F26;
+        border-radius: 5px;
+        padding: 10px;
+        width: 145px;
+        /* dropdown menu always on top */
+        z-index: 9999;
+        /* border: 1px solid #242323; */
+    }
+
+    /* display button in block of the dropdown menu box */
+    .menu .dropdown:hover .dropdown_menu_box {
+        display: block;
+    }
+
+    /* set red colors for the button "nos produits" wen the dropdown menu is display */
+    .menu .dropdown:hover .dropdown_toggle {
+        color: #A62139;
+    }
+
+    /* init text for the button of the dorpdown menu */
+    .menu .dropdown_menu_box a {
+        margin: 10px 5px;
+        display: block;
+        color: #fff;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+    /* add effect when cursor is on button */
+    .menu .dropdown_menu_box a:hover{
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 19px;
+    }
+
+/************************                 end                 **************************/
+/********************************** init bar menu **************************************/
+

@@ -1,0 +1,32 @@
+[For creating a tilemap, use this template and change in bracket values and remove the brackets]
+{texture_filepath};{structure_filepath};{size_x};{size_y};{pos_x};{pos_y};{tile_size}
+
+[For creating a regular object, use this template and change in bracket values and remove the brackets]
+{filepath};{size_x};{size_y};{pos_x};{pos_y};{hitbox_x};{hitbox_y};{tpf};{scale};{is_centered}
+
+example:
+./assets/stickman.png;32;32;0;0;160;1;0
+
+[Adding more information on an object (player or ennemy for example) will need a structure with all info inside]
+[each structure will have a list of objects attributed to it, that it can change at all times]
+
+example:
+typedef struct player_t {
+    object_t **object_list;    <== the object list
+    object_t *object;    <== the object currentrly selected
+    int pv;
+    int atk;
+    int def;
+    int jump_height;     <== all other info
+}
+
+[This will make it easier to distinguish the player's values and the player's object]
+
+example:
+player_t *player = create_player(object_t *object)
+
+    player               <== the player's structure
+    player->object       <== the player's object (aka sprite aka what's on screen)
+
+
+[Be sure that all of an object's sprite are the same size, otherwise you should create another object specifically or take it into consideration the entire time]

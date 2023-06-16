@@ -1,0 +1,123 @@
+/************************* init header, body of the website ****************************/
+/************************               start                    ***********************/
+
+/* init header */
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* set two box on the header container add degrade effect on background*/
+.header .header_container{
+    height: 540px; width: 60%;
+    position: relative;
+    background: linear-gradient(#fff, rgba(0, 0, 0, 0.3));
+    padding: 30px 80px;
+}
+
+/* set nbr_phone box */
+.header .header_container .nbr_box{
+    position: relative;
+    background-color: #fff;
+    width: 350px; height: 80px;
+    color: #444;
+    line-height: 80px;
+    font-weight: 900;
+    font-size: 24px;
+    padding-left: 100px;
+    /* add shadow effect */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* set "nbr_phone" text and background logo color */
+.header .header_container .nbr_box .phone{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    width: 80px; height: 80px;
+}
+
+/* set "slogan" text */
+.header .header_container h1.slogan{
+    margin: 30px 0;
+    font-size: 58px;
+    font-weight: 700;
+    color: #222;
+}
+
+
+.header .header_container .content_header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 195px;
+}
+
+.header .header_container .content_header .content{
+    width: 33.33%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.header .header_container .content_header .content:last-child{
+    border-right: none;
+}
+
+/* set logo color and size */
+.header .header_container .content_header .content i{
+    font-size: 56px;
+    color: #222;
+}
+
+/* set text below the icons "Telephone" "Security" "Terminals and points of sale" */
+.header .header_container .content_header .content h3{
+    font-size: 25px;
+    color: #222;
+    margin: 20px 0 30px 0;
+}
+
+/* set "a-propos" button and add transition */
+.header .header_container .content_header .content .button_h{
+    background-color: #A62139;
+    border-radius: 10px;
+    padding: 15px;
+    transition: 0.5s;
+}
+
+/* set "a-propos" text */
+.header .header_container .content_header .content a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* change color background when the cursor is on the button "a-propos" */
+.header .header_container .content_header .content .button_h:hover{
+    background-color: #550b18;
+    border-radius: 10px;
+    color: #fff;
+}
+
+/* set carouselle image */
+#carrousel{
+    width: 940px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* set container carrousel */
+#container_carrousel{
+    width: 800px;
+    height: 600px;
+    transition: 1s;
+}
+
+/************************                 end                 **************************/
+/************************* init header, body of the website ****************************/

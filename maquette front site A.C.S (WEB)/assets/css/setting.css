@@ -1,0 +1,45 @@
+/* import google_font url */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/********************************* set global setup ************************************/
+/************************               start                    ***********************/
+
+/* set transition betwen page */
+#page-transition-container{
+    opacity: 0.6;
+    transition: opacity 0.2s ease;
+}
+
+/* set font */
+*{
+    font-family: "roboto", sans-serif;
+}
+
+/* remove margin on all tags used */
+p, h1, h2, h3{
+    margin: 0;
+    padding: 0;
+}
+
+/* removed underlines from all links */
+a{
+    transition: 1s;
+    text-decoration: none;
+}
+
+/* removed points from all links */
+li{
+    list-style: none;
+}
+
+/* set body */
+body {
+    width: 100%; /* body size */
+    margin: 0; /* delete margin */
+    padding: 0;
+    background-color: #eee;/* background color */
+}
+
+/************************                 end                 **************************/
+/********************************* set global setup ************************************/

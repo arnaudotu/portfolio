@@ -1,0 +1,97 @@
+/************************* init banner of the "qui sommme-nous" page ****************************/
+/***************************               start                    *****************************/
+
+/* init container banner and add background image */
+.container_banner{
+	background:url('../images/banner-apropos_test.png') center no-repeat;
+	background-size:cover;
+	width:100%;
+	height:300px;
+	line-height:300px;
+}
+
+/* init title for the banner */
+.container_banner h1.text_banner{
+    margin:0 auto;padding:0;
+	color:#fff;
+	font-size:45px;
+	font-weight:500;
+	width:1200px;
+}
+
+/***************************                end                     *****************************/
+/************************* init banner of the "qui sommme-nous" page ****************************/
+
+/****************************** init body of the "a-propos" page  *******************************/
+/*****************************               start                    ***************************/
+
+/* init the body of the page */
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* init the container where the boxes will be placed */
+.apropo_container{
+	width:1200px;
+	display:flex;
+	justify-content:space-between;
+	margin:50px auto;
+}
+
+/* init box left */
+.box_left{
+    flex:0 0 48%;
+	padding:0;
+	position: relative;
+}
+
+/* init the text part of the box left*/
+.text_box_left{
+	background-color:#fff;
+	width:100%;
+	padding:0;padding-bottom:20px;
+	border-radius:130px 130px 0 0;
+}
+
+/* init the title part of the box left */
+.text_box_left .titre{
+	background-color:#A62139;
+	width:100%;
+	padding:30px 0;
+	border-radius:150px 150px 0 0;
+	color:#fff;
+	font-size:28px;
+	text-align:center;
+	margin:0;
+}
+
+/* set text of the left box */
+.text_box_left p{
+	color:rgba(0,0,0,0.8);
+	margin:20px;
+	font-size:18px;
+	text-align:center;
+}
+
+/* init box right and add background img */
+.box_right .img_planning-apropos{
+	background:url('../images/planning-apropos.png') center no-repeat;
+	background-size:cover;
+	width:90%;
+	height:350px;
+	margin-bottom:30px;
+	float:right;
+}
+
+/* set text of the right box */
+.box_right .text_box_right{
+    margin:20px;
+    font-weight:300;
+    color:#333;
+}
+
+
+/***********************                 end                 ***************************/
+/************************* init body of the "a-propos" page ****************************/

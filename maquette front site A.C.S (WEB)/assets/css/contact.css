@@ -1,0 +1,107 @@
+/************************* init banner of the "contact" page ****************************/
+/***********************               start                    *************************/
+
+/* init container banner and add background image */
+.container_banner{
+	background:url('../images/banner-apropos_test.png') center no-repeat;
+	background-size:cover;
+	width:100%;
+	height:300px;
+	line-height:300px;
+}
+
+/* init title for the banner */
+.container_banner h1.text_banner{
+    margin:0 auto;padding:0;
+	color:#fff;
+	font-size:45px;
+	font-weight:500;
+	width:1200px;
+}
+
+/************************                end                     ************************/
+/************************* init banner of the "contact" page ****************************/
+
+/**************************** init body of the "contact" page ***************************/
+/*************************               start                    ***********************/
+
+/* init the background, set a gradient colors */
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+	background: linear-gradient(#f7f5f5, rgba(0, 0, 0, 0.3));
+}
+
+/* init container where the text is placed */
+.container_contact{
+    width:50%; height: 1020px;
+	display:flex;
+	justify-content:center;
+	margin:50px auto;
+    background-color: #333;
+	border-radius: 25px;
+}
+
+/* init title of the page */
+.container_contact h4.titre_contact{
+	margin-left:auto;
+	padding:0;
+	margin-top:70px;
+	color:#ad6d6d;
+	font-size:42px;
+	font-weight:500;
+	width:1200px;
+	text-align: center;
+}
+
+/* init text below the title */
+.container_contact p{
+	color: #eae4e4;
+	margin-top: 20px;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+/* set text for facebook */
+.facebook_text{
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+
+/* init text input box */
+form{
+	width:85%;
+	margin:60px auto;
+}
+
+/* init text input box2 */
+input.cntinput, textarea{
+	width:93%;
+	padding:15px;
+	margin:10px 10px;
+	background-color: rgba(0,0,0,0.2);
+	color:#fff;
+	border:none;
+}
+
+/* init height of the input box */
+textarea{
+	height:200px;
+}
+
+/* set the button "envoyer!" */
+input[type="submit"]{
+	background-color: #7f7edb;
+	border:none;
+	width:97%;
+	padding:15px;
+	margin: 3px 10px;
+	font-size:20px;
+	font-weight:bold;
+	color:#fff;
+	border-radius:30px;
+}
+
+/*************************               end                      ***********************/
+/**************************** init body of the "contact" page ***************************/

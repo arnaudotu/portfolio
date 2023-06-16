@@ -1,0 +1,6 @@
+./assets/tilemap/plain.png;./assets/tilemap/forest_1/layout.txt;./assets/tilemap/forest_1/walls.txt;32;23;64
+./assets/tilemap/plain.png;./assets/tilemap/forest_2/layout.txt;./assets/tilemap/forest_2/walls.txt;32;34;64
+./assets/tilemap/casino.png;./assets/tilemap/forest_5/layout.txt;./assets/tilemap/forest_5/walls.txt;40;40;64
+./assets/tilemap/desert.png;./assets/tilemap/desert_1/layout.txt;./assets/tilemap/desert_1/walls.txt;32;34;64
+./assets/tilemap/desert.png;./assets/tilemap/desert_2/layout.txt;./assets/tilemap/desert_2/walls.txt;32;34;64
+./assets/tilemap/desert.png;./assets/tilemap/desert_3/layout.txt;./assets/tilemap/desert_3/walls.txt;40;28;64
