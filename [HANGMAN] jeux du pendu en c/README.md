@@ -18,3 +18,5 @@ DESCRIPTION:
 
 the game starts by default with 10 tries but you can choose the number of tries by putting it after the file.The goal
 of the game is to find the chosen word before the remaining number of tries.
+
+this project was done in less than 1h30 without an internet connection as part of an exam.
